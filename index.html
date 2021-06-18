@@ -1,0 +1,34 @@
+<html>
+  <head>
+  <link rel="stylesheet" href="style.css">  
+  </head>
+  <title> Family Book</title>
+  <body>
+    <h1> Family Book</h1>
+    <hr> <hr>
+    <img id="family_img" src= "https://lh3.googleusercontent.com/AQJ2ZQfZIMj8Lxzt0O-moxVSnHSy32Kj8m2ScyoYDC3IF-l8ltXPiTGMBI31PyvWdE08vDLHTkUaLGul_B6qa_5IpJjFxJztAuk2WiQj7HTwUD3Bn_kvOR1vzGSW3abtiTBdTzMoj4smSn_UBJzFCGej5BDehvqsqmCqrCR6P5DSvp2j1f1jc5T7VsQ0N4R2uxR421pVg_lfGpkOT8T4Up6ucOHSZVsTHZSOwEuJBwvKYkmaAItqn5Jvm9cOb7xIMoJEQJbWgeZCZ3e-JMTVe7HJL9by1xdOgD4KetTnxCcRZGBnRS58_U8IlevLMIb6dUF91lQFljJIqdnoXtdv6jv0kPHgpkc_pCamxFfJfXL9x0DlCej7ZTqmeIjoKoMFYVRW_O4tgdOaurlYx8yK7m2ybLyOH74q1RT6Y5aOJelbigyB426KUfpL7a4HZ1gSN4YE8cpSGrJHzt-My1CQ8M6oHZc1TLrUPsyRRWr4MlDHMsBkt7LV_eBatVI-tUdONvrYoNJ_qQG66XIUAE2-7Om9I-sqBtdlDOuSZ3fb1RoZTh9j9KIyfgDeSkYdcwFgbqYtW_hdbrPVgW1nylB-69HdccBW2kkXOsNYknccheBO4ZfLcBYHNoXemY9hLgoQu3PaFWI3zm3Dxa7q-sDKIeHK1XiYthQb2rGpAm8vRu9JJNTzDkvvu9hWGKbfWl2UV0DI4tr_eg8fncIVcuOXgA=w986-h657-no?authuser=2">
+    <h3 id="one">1. Our Family Book</h3>
+     <button type="button" onclick="family()">Next</button>
+<hr>
+   <script>
+   var names=[
+   "1. My Father (Ramu.Maram)",
+   "2. My Mother (Shalini.Maram)",
+   "3  Me(Saanvi.Maram)",
+   ];
+ var images=[
+ "https://lh3.googleusercontent.com/HNoXtkpOxSQA746V-hTTRCAQLaxhQ35Hd9YAMeEAVKV_iiIlbpO6Yppfd1nk1dcgXg0PFIjOaXKOSg3Mo3X1uZkZHvbB_Sc8DiGPcOMQ4q2jq_Tk3Pl-scVBzclISnBzEvj9mUZimGcs98-zT365M-QhAtXyDSmfZ8bpQaUvPRTcnZRPJM-7b8EncaBZSia5sQj8nLteIyOfHr0rZ-vnlzt0lYc-XOiI8tFaPF2E2ykGX3KTv4i8jH1Jeh9RsqTnqkCsxf4vFLWZxjiXNtX4FkvGNBEey3qdtW0MuHnLM9lbiNtzCy2QTdaqjzC_1_CjooqOS1Rnme_PLcIQMKFh4J3b_uacXsgYs_2bFOgE2O20dnTYsioZlSZUXA3aGzkx0VxH5E3JfsY5-ydFL3Umu16VYMiDwvhDoOlHdWXG7JsRn67PE_BBrrisMbGcO3SvH8Fjiyd1ZpHzt4kQz0fOisQBLr51X7x1mecJG6L95r9sYn4hU5euS3sJTe788PetnBJX3pICFNnFbz2d9m5llxHsVGQczRnzpThFRYPbpCFYzqRAj6bo6_bcByc3zusouh3K0Cpjrc1qlhGbxETid_QUeRcB8x4VqbjSFmNthBWmbzeCTP1y6GaffOl7-MdRHqoqTJlYyNy73qP0QKYuBi9oHCaxKLa4pItnrpR0i48BndvyvIycu9dfaEvgZU2j1KMZ2yKr42Y-1Zfyx7-CHw=w205-h468-no?authuser=2",
+ "https://lh3.googleusercontent.com/_f9ALOhZImlbcHHyeB3ml91bRdiybIwKc6pIsyYe4MedNIBZpDRSE43NkFhRYfOU4vcbI8pcYdiq7AL-tuZxdTJuuJq7aPw0LTfuX1VxDxR8ZCyG_iTyfNvsxSmyo4fjqftrEVAevfgGcOePkwowLhSudnRLGCruK4Z0KADhOt_akLpfRQ2ztPCy3BOkgl2Rb9VpqwXcVOKlS5x4p9bsU6v8y5Zcvk85yurQwujTy7L-QWqpHk-wPqdEYheocQLVAnVUB1x_ifJZyxnhoFqFNtu2WGbgCPMgika4VZ9r4fjyjsBVUgmv96uOBncniu7LK1jvI8yBLaPRpu40v66EzMVYjwowfddYbGRJENMTjh4Z2LVJyUu8dRykld1VtIBvcqyIrUdhDV_ZmhlNAs3k2JJI8eFnD-DX1_0JqRrg-rEEUHTsTd8DyYg7hWVDfaqGLPl3vC0IufbDyWtNyCG7qiP77rcN2nriMU_Na25kxQJsXeeN8xRkryzTt8X1HPuX65PlmR-PfrEU9Qi5nt2Xtcd29jChKZ81CyC8DMuslRJqLg90u6Eyy2hrK_xeOMurYF6qYCrghkXbeTLnd-lIEiTXljf-z9X5VjsnkTmRJytjJvIXaHOxf7NzusfJ8R1pm7rW8Ze45xcsWTxMXFWKxcljj7kDKQom9leq8qSXfR8LyLQ3NEypF-uHheYd-58zosCyE5xFtcimC-P2DWD1P9k=w370-h657-no?authuser=0",
+ "https://lh3.googleusercontent.com/sOjpYtVQ4GQ-D2qtzjkYQ35lyROzM8F_hrZH8wNRQxxGInzPHNurw3-Cnf0lB7n5olVz6Llcn-Wo_u9VSU8WPbNybIWsY8I39qkI63tUW8UqoisZUV-WV-P35-huALQo2XzDiVn4gYKzaOAGOCgnPzXngsgQ2p-XTD_3pq_LkYKIo-YFE7tm5usJM2m9w0l8CwfMITVgxqekHQbiUIR67vLxJ8VjzC8N0VX7jdtPBnrAPRGZRLrJy26N6xEJcQvzUW6iSxiDpBfaq_iJKUgywdwYwK6We0U9JtKq4Uw8RLhKPC5LWv64PS8uMUHYmszGEpxUT2ZwH8alno6VNKVxMvyBOS4v3P6Cvt4cRF_Cn2oMYJFE4ytUt16Gx1atWGM3HWEWPZJbqDmGKhDkXpPti_e1hB4KQQnikcj6NIuIZS823MEFuiq0Ls6cs71WwHRfvEDj-59yJAcjtBvFlbNxriHl-2O7Ckq6KUhZOud_z3E87rfK8L1vVFsg02R-yp9Ysd51rU3IffinmYvxpbZ6Bqybt2G3dvyUtuGb7Fy7QCa2w2yZnGkTFbqDUYD6OrUQalGuNOCHRkneOj6oBRtg21wWEEVbGzqP-k8H22gGgkuSuQrpuoSnwGwTeXpaGOGq_66vPQ7tPwLrcOEjkzrJW27TgoCxoXBcXtfsWfO--MSriFdofOJ1HePQcg_F4AbreCT4M_n1yg1DseLMxqOZ6w=w438-h657-no?authuser=2",
+ ];
+ var i=0;
+ function family(){
+   document.getElementById("one").innerHTML=names[i];
+   document.getElementById("family_img").src=images[i];
+   i++;
+   if(i==4){
+     i=0;
+   }}
+  </script>
+  </body>
+</html>
